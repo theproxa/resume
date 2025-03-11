@@ -1,0 +1,14 @@
+resume/
+├── app.py
+├── requirements.txt
+├── Makefile
+├── templates/
+│   ├── index.html
+│   └── resume_en.html
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── script.js
+│   └── img/
+│       └── your_photo.jpg  # Добавьте свое фото сюда
