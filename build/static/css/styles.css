@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для header */
+header {
+    background-color: #343a40; /* Темно-серый, как у footer */
+    color: white;
+    padding: 10px 0; /* Уменьшили вертикальный отступ в 2 раза */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Уменьшили размер шрифта */
+}
+
+header p {
+    margin: 5px 0 0; /* Уменьшили отступ */
+    font-size: 1.2rem;
+}
+
+/* Стили для контента */
+.container {
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+/* Стили для footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Стили для кнопки переключения языка */
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.language-switcher button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.language-switcher button:hover {
+    background-color: #0056b3;
+}
+
+/* Отступы для контента */
+.content {
+    margin: 20px 0;
+}
